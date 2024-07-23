@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.cdnfonts.com/css/quantico" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      <link rel="shortcut icon" href="../images/header/logo-ave-felix.webp" type="image/x-icon">
+      <title>Remeras Ave Félix</title>
+      <meta name="description" content="Remeras personalizadas">
+      <meta name="keywords" content="Remeras Ave Felix, Remeras personalizadas, Remeras">
+      <meta property="og:title" content="Ave Félix"/>
+      <meta property="og:description" content="">
+      <meta property="og:image" content=""/>
+      <link rel="stylesheet" href="../styles/bootstrap.min.css">
+      <link rel="stylesheet" href="../css/main.css">
+   </head>
+   <body>
+      <header class="bg-black" data-bs-theme="dark">
+         <ul class="nav justify-content-center">
+            <a class="navbar-brand" href="../index.html"><img src="../images/header/logo-ave-felix.webp" width="60px" alt="Logo Ave Félix"></a>
+         </ul>
+         <ul class="nav justify-content-center">
+            <li class="nav-item">
+               <a class="nav-link" href="./shirts.html">Remeras</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="./careful.html">Cuidados</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="./contact.html">Contacto</a>
+            </li>
+         </ul>
+      </header>
+      <main>
+         <body>
+            <div id="cart-container" class="grid-container"></div>
+            <div id="checkout-container">
+               <button id="checkout-button">Finalizar Compra</button>
+            </div>
+            <!-- Modal para mostrar los ítems del carrito -->
+            <div class="modal fade" id="checkoutModal" tabindex="-1" aria-labelledby="checkoutModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title" id="checkoutModalLabel">Detalles del Carrito</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body" id="checkoutModalBody">
+                        <!-- Los ítems del carrito se agregarán aquí dinámicamente -->
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary" id="confirm-button">Confirmar</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Modal para agradecer la compra -->
+            <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title" id="thankYouModalLabel">¡Gracias por tu compra!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                        Tu compra ha sido completada con éxito.
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" id="reload-page-button">Aceptar</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Modal para agregar item al carrito -->
+            <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="cartModalLabel">¡Ítem agregado al carrito!</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+               </div>
+               </div>
+            </div>
+         </body>
+      </main>
+   <footer>
+      <div class="text-center footer">
+         <div class="card-body">
+            <p class="card-title p-2 footer-title">Seguinos en redes!</p>
+            <div class="row-mine">
+               <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+               <a href="https://www.instagram.com/aveefeelix/"><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-youtube"></i></a>
+               <a href=""><i class="fa-brands fa-twitch"></i></a>
+            </div>
+         </div>
+         <div class="row-mine">
+            <p>Remeras Personalizadas - Ave Félix</p>
+         </div>
+      </div>
+   </footer>
+   <!-- Scripts -->
+   <script src="../js/bootstrap.bundle.min.js"></script>
+   <script src="../js/cart/shirts.js"></script>
+   </body>
+</html>

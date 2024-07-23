@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Breaking Bad",
+        "price": 18000,
+        "image": "../images/shirts/breaking-bad.webp"
+    },
+    {
+        "id": 2,
+        "name": "Abeja",
+        "price": 18000,
+        "image": "../images/shirts/abeja.webp"
+    },
+    {
+        "id": 3,
+        "name": "Casa de Papel",
+        "price": 18000,
+        "image": "../images/shirts/casa-papel.webp"
+    },
+    {
+        "id": 4,
+        "name": "Noche estrellada",
+        "price": 18000,
+        "image": "../images/shirts/estrellado.webp"
+    },
+    {
+        "id": 5,
+        "name": "Mood Marilyn Monroe",
+        "price": 18000,
+        "image": "../images/shirts/mood.webp"
+    },
+    {
+        "id": 6,
+        "name": "Mujer",
+        "price": 18000,
+        "image": "../images/shirts/mujer.webp"
+    },
+    {
+        "id": 7,
+        "name": "Pescado",
+        "price": 18000,
+        "image": "../images/shirts/pescado.webp"
+    },
+    {
+        "id": 8,
+        "name": "Rocky",
+        "price": 18000,
+        "image": "../images/shirts/rocky.webp"
+    },
+    {
+        "id": 9,
+        "name": "Supercampeones",
+        "price": 18000,
+        "image": "../images/shirts/supercampeones.webp"
+    }
+]
